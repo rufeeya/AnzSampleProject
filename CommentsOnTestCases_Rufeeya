@@ -1,0 +1,9 @@
+Once you are done connecting to db, you can have postive and neagative test cases
+
+like..
+
+for posiive, hav a actual list that fetches acc list for userid that is present using a @mock userRepository obj (when then)
+and hav an expected list that goes thru service (@injectmock) and fetches for that user id, and compare these 2
+
+for negative, for expected use an userid that is not present or a different userid so that the results dont match
+like assertnotequals for size oflists something like that
